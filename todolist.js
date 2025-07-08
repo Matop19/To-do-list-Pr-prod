@@ -1,5 +1,5 @@
-const supabaseUrl = 'https://xtnybqqgiftasikzgcos.supabase.co';
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh0bnlicXFnaWZ0YXNpa3pnY29zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzNjQxNTksImV4cCI6MjA2Njk0MDE1OX0.OLkZI-KafGoLiJHmVwwDWQLBIG6IsJfFIXZHdUxwx68";
+const supabaseUrl = 'https://ppubgjbjlrursvsoyihv.supabase.cos'; //Il faut changer l'url à chaque changement de branche
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBwdWJnamJqbHJ1cnN2c295aWh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE5NjQ3MzYsImV4cCI6MjA2NzU0MDczNn0.nxCwayscMjOufKx3iz4i3IEszQ00mJiIWjWpIAI9Jcw";
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 let currentUser = null;
