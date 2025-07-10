@@ -1,4 +1,4 @@
-const supabaseUrl = 'https://ppubgjbjlrursvsoyihv.supabase.co;
+const supabaseUrl = 'https://ppubgjbjlrursvsoyihv.supabase.co'; //à changer à chaque fois que je change de branche(pareil juste en dessous)
 const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBwdWJnamJqbHJ1cnN2c295aWh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE5NjQ3MzYsImV4cCI6MjA2NzU0MDczNn0.nxCwayscMjOufKx3iz4i3IEszQ00mJiIWjWpIAI9Jcw";
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
