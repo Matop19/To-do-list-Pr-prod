@@ -1,0 +1,26 @@
+name: Lint JavaScript
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer les dépendances
+        run: npm install
+
+      - name: Lancer le linting
+        run: npm run lint
